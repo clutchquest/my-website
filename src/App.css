@@ -5,8 +5,8 @@
 .App {
   display:grid;
   background-position: center;
-  background-color: rgba(101, 155, 226, 0.712);
- 
+  /*background-color: rgba(101, 155, 226, 0.712);*/
+  background-image: url(C:\New folder\Desktop\web-projects\my-website\src\images\sun_bear_8-2042856911.jpg);
 }
 
 .App-logo {
@@ -21,10 +21,11 @@
   text-indent:53%;
   opacity: inherit;
   height:fit-content
-
 }
 
-.navbar ul {
+
+
+.navbar ul { 
   display: grid;
   list-style: none;
   opacity: 1.0;
@@ -42,15 +43,24 @@
   color:white;
   text-align: center;
   position: relative;
-  
+  ;
 }
 
 .navbar a:hover{
   opacity:0.7;
-  color: cadetblue;
+  color: rgb(81, 101, 218);
+}
+
+li:hover{
+  transform:scale(1.5);
 }
 
 
+.newsflash{
+  display: grid;
+   justify-content:right;
+  
+}
 .App-link {
   color: #61dafb;
 }
