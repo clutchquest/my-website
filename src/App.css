@@ -5,8 +5,8 @@
 .App {
   display:grid;
   background-position: center;
-  /*background-color: rgba(101, 155, 226, 0.712);*/
-  background-image: url(C:\New folder\Desktop\web-projects\my-website\src\images\sun_bear_8-2042856911.jpg);
+  background-color: rgba(67, 88, 116, 0.712);
+  /*background-image: url(C:\New folder\Desktop\web-projects\my-website\src\images\sun_bear_8-2042856911.jpg);*/
 }
 
 .App-logo {
@@ -32,10 +32,10 @@
   justify-content:left;
   padding: 130px 0;
   gap: 34px
-
 }
 
 .navbar a{
+  text-shadow: 10px 10px black;
   text-decoration: none;
   font-family: "Anton", sans-serif;
   padding: 11px 39px;
@@ -43,7 +43,6 @@
   color:white;
   text-align: center;
   position: relative;
-  ;
 }
 
 .navbar a:hover{
@@ -56,10 +55,24 @@ li:hover{
 }
 
 
-.newsflash{
-  display: grid;
-   justify-content:right;
-  
+.outer{
+  display: flex;
+  position:fixed;
+  top: 120px;
+  left: 1300px;
+  bottom: 300px;
+  width: 100%;
+
+}
+.inner{
+   -webkit-backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
+   border-radius: 20px;
+   box-shadow: 10px 10px ;
+   /*background-image: url(C:\New folder\Desktop\web-projects\my-website\src\images\sun_bear_8-2042856911.jpg);*/
+}
+.inner p{
+  position: fixed;
 }
 .App-link {
   color: #61dafb;
